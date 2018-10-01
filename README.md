@@ -4,8 +4,8 @@ This is an implementation of 3D Region Growing (RG) algorithm used in computer v
 
 The algorithm receives a 3D image, a seed which is a point in 3D space inside the 3D image
 and also a 3D mask which specifies which regions of the 3D image will go through the 3D RG algorithm. 
-If the user doesn't want to specify such limitation, a 3D array of ones with a shape equal to that of 
-3D image's can be used as the mask.
+If the user want the algorithm go through everywhere inside the 3D image, the input argument masks should be 
+a 3D array of ones with a shape equal to that of 3D image's.
 
 The user also have to specify the upper and lower threshold for the algorithm.
 
