@@ -16,7 +16,7 @@ cdef class RegionGrow3D:
     
     cdef int[:,:,:] images
     cdef int[:,:,:] masks
-    cdef int[:,:,:] tracheaMask
+    cdef int[:,:,:] outputMask
     cdef int upperThreshold
     cdef int lowerThreshold
     cdef neighborMode
