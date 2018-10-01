@@ -17,6 +17,7 @@ is marked as 1 on the output mask. Finally, the neighbor is pushed into a queue.
 4- The for newly popped coordinate steps 1-3 are repeated until the queue is empty.
 
 RegionGrow3D class:
+
 Constructer Input arguments:
 
   images: 3D numpy array, datatype = int
@@ -25,10 +26,13 @@ Constructer Input arguments:
   lowerThreshold: int
   
 Class Methods:
+
   outputMask = RegionGrow3D.Main(seed)
     
   Input arguments:
+  
     seed: vector with dims=(1,3), datatype = int
     
    Returns:
+   
     outputMask: 3D numpy array, datatype = int
